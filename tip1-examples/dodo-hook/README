@@ -1,0 +1,7 @@
+* Usage:
+	2. make
+	4. run example with the following cmdline:
+		LD_PRELOAD=path/to/libdodo-hook.so ./ex
+	5. the runtime trace is placed in files named trace.out.<pid>, use the following cmdline to convert to human-readable form:
+		trace-print ./ex <trace file>
+
